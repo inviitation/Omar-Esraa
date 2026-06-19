@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ahmed & Rana</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Cormorant+Garamond:wght@400;600&family=El+Messiri:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="overlay"></div>
+
+<div class="intro" id="intro">
+  <h2>💍 Wedding Invitation</h2>
+  <p>Tap to Enter</p>
+</div>
+
+<audio id="music" loop>
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<button id="musicBtn">🔊</button>
+<button id="langBtn">AR</button>
+
+<div class="main" id="main">
+
+  <div class="section">
+    <h2 data-en="Wedding Invitation" data-ar="دعوة زفاف">Wedding Invitation</h2>
+
+    <p 
+    data-en="With hearts full of love and joy,<br>we invite you to celebrate our wedding"
+    data-ar="بقلوبٍ يملؤها الحب والفرح،<br>ندعوكم لمشاركتنا هذه اللحظة السعيدة">
+    With hearts full of love and joy,<br>we invite you to celebrate our wedding
+    </p>
+  </div>
+
+  <div class="section">
+    <h1 data-en="Ahmed <span>&</span> Rana" data-ar="أحمد <span>&</span> رنا">
+      Ahmed <span>&</span> Rana
+    </h1>
+  </div>
+
+  <div class="section">
+    <p data-en="Thursday" data-ar="الخميس">Thursday</p>
+    <h2 data-en="May 14, 2026" data-ar="14 مايو 2026">May 14, 2026</h2>
+    <p data-en="08:00 PM" data-ar="08:00 مساءً">08:00 PM</p>
+  </div>
+
+  <div class="section">
+    <p 
+    data-en="La Perla Hall - Dar El Modaraat"
+    data-ar="قاعة لا بيرلا - دار المدرعات">
+    La Perla Hall - Dar El Modaraat
+    </p>
+  </div>
+
+  <div class="section countdown">
+    <div><span id="days">0</span><p>Days</p></div>
+    <div><span id="hours">0</span><p>Hours</p></div>
+    <div><span id="minutes">0</span><p>Minutes</p></div>
+    <div><span id="seconds">0</span><p>Seconds</p></div>
+  </div>
+
+  <div class="section">
+    <a href="https://maps.app.goo.gl/N2GJTLT2q1KZu8Ra8?g_st=ac"
+       target="_blank"
+       class="map-btn"
+       data-en="📍 Get Directions"
+       data-ar="📍 عرض الموقع">
+       📍 Get Directions
+    </a>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
